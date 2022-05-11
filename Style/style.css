@@ -1,0 +1,262 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+ .dropdown:hover .dropdown-menu2 {
+    display: none;
+    margin-top: 0; 
+ }
+ .drop2:hover .dropdown-menu2   {
+    display: block;
+    margin-top: 0; 
+ }
+ ul{
+    list-style: none;
+}
+.about-border-1,.about-border {
+    height: 3px;
+    width: 0px;
+}
+.about-border{
+    transition: 0.3s;
+}
+nav ul li:hover .about-border{
+    width: 2rem;
+    height: 3px;
+}
+
+ .ps1,.ps2,.ps3{
+    background-image: url("../imgs/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+  height: 100vh;
+
+
+}
+.ps2,.ps3{
+    background-image: url("../imgs/post-3.jpg");
+    height: 35%;
+    background-position: top;
+}
+.ps3{
+    background-image: url("../imgs/overlay-bg.jpg"); 
+}
+.ani::after{
+    content: " |";
+    animation-name: h;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes h{
+    0%{content: " D|" ;}
+    1%{content: " De|" ;}
+    3%{content: " Des |" ;}
+    5%{content: " Desi |";}
+    6%{content: " Desin |";}
+    8%{content: " Desine |";}
+    19%{content: " Desiner |";}
+    20%{content: " Desine|";}
+    21%{content: " Desin|";}
+    22%{content: " Desi|";}
+    23%{content: " Des|";}
+    24%{content: " De|";}
+    25%{content: " D|";}
+    26%{content: " |";}
+
+    27%{content: "  |"}
+    28%{content: "  F |"}
+    30%{content: "  Fr |"}
+    31%{content: "  Fre |"}
+    32%{content: "  Free |"}
+    33%{content: "  Freel |"}
+    34%{content: "  Freela |"}
+    35%{content: "  Freelan |"}
+    36%{content: "  Freelanc |"}
+    41%{content: "  Freelancer |"}
+    42%{content: "  Freelance| "}
+    43%{content: "  Freelanc |"}
+    44%{content: "  Freelan |"}
+    45%{content: "  Freela |"}
+    46%{content: "  Freel |"}
+    47%{content: " Free |"}
+    48%{content: "  Fre |"}
+    49%{content: "  Fr |"}
+    50%{content: "  F |"}
+    51%{content: "|"}
+
+    52%{content: "  P |"}
+    53%{content: "  Ph |"}
+    54%{content: "  Pho |"}
+    55%{content: "  Phot |"}
+    57%{content: "  Photo |"}
+    59%{content: "  Photogr |"}
+    61%{content: "  Photogra |"}
+    63%{content: "  Photograp |"}
+    64%{content: "  Photograph |"}
+    65%{content: "  Photographe |"}
+    70%{content: "  Photographer |"}
+    71%{content: "  Photographe |"}
+    73%{content: "  Photograph |"}
+    75%{content: "  Photograp |"}
+    77%{content: "  Photogra |"}
+    79%{content: " Photogr |"}
+    81%{content: " Photog |"}
+    83%{content: " Photo |"}
+    84%{content: " Phot |"}
+    85%{content: "  Pho |"}
+    86%{content: "  Ph |"}
+    87%{content: "  P |"}
+    88%{content: "   |"}
+  
+}
+.progress{
+    height: 8px;
+    border-radius: 0px;
+    background-color: #e3effd;
+}
+
+
+.about-border-2{
+    width: 2.5rem;
+    height: 4px;
+}
+
+.hov .bi, .hov2{
+    transition: 0.5s;
+    
+}
+.round {
+    border-radius: 3%;
+}
+.round2{
+    height: 15%;
+    width: 30%;
+    border-radius: 50px;
+}
+.round2:hover{
+    background-color: #3c95f5;
+    border: #e3effd;
+    box-shadow: 0px 0px 10px #e3effd;
+}
+
+.hov:hover .bi, .hov2:hover{
+    background-color: #0178fe;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgb(155, 152, 152);
+
+} 
+.txt p{
+    word-spacing:6px;    
+}
+
+.aftr1::after{
+content: " 450";
+animation-name: aft1;
+animation-duration: 0.5s;
+}
+@keyframes aft1{
+   0%{content:" 1";}
+   10%{content:" 50";}
+   20%{content:" 100";}
+   30%{content:" 150";}
+   40%{content:" 200";}
+   50%{content:"250";}
+   60%{content:" 300";}
+   70%{content:" 350";}
+   80%{content:" 400";}
+   90%{content:" 430";}
+   100%{content:" 450";}
+  
+}
+.aftr2::after{
+content: " 25";
+animation-name: aft2;
+animation-duration: 0.5s;
+}
+@keyframes aft2{
+   0%{content:" 1";}
+   20%{content:" 5";}
+   40%{content:" 10";}
+   60%{content:" 15";}
+   80%{content:" 20";}
+   100%{content:"25";}
+ 
+}
+.aftr3::after{
+content: "550 ";
+animation-name: aft3;
+animation-duration: 0.5s;
+}
+@keyframes aft3{
+   0%{content:" 1";}
+   10%{content:" 50";}
+   20%{content:" 100";}
+   30%{content:" 150";}
+   40%{content:" 200";}
+   50%{content:"250";}
+   60%{content:" 300";}
+   70%{content:" 350";}
+   80%{content:" 400";}
+   90%{content:" 400";}
+   95%{content:" 450";}
+   100%{content:" 550";}
+
+}
+.aftr4::after{
+content: "48 ";
+animation-name: aft4;
+animation-duration: 0.5s;
+}
+@keyframes aft4{
+   0%{content:" 1";}
+   10%{content:" 5";}
+   20%{content:" 10";}
+   30%{content:" 15";}
+   40%{content:" 20";}
+   50%{content:"25";}
+   60%{content:" 30";}
+   70%{content:" 35";}
+   80%{content:" 40";}
+   90%{content:" 45";}
+   100%{content:" 48";}
+
+}
+.txt3{
+    font-size: 0.8rem;
+}
+.pos{
+    bottom: 10;
+    right: 10;
+}
+ img{
+transition: transform .5s;
+ }
+.zom:hover img{
+    transform: scale(1.3);
+
+}
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+  }
+.wdth{
+    width: 10%;
+}
+footer{
+    background-color: #1666cf;
+}
+.ps3 .bg{
+    background-color: rgba(28, 115, 245, 0.7);
+}
+.hov3{
+    color: black;
+    transition: 0.3s;
+}
+.hov3:hover{
+    color: #3c95f5;
+}
+
+
